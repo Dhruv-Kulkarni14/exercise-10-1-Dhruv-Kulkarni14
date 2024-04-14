@@ -219,6 +219,8 @@ footer p {
 		grid-column: 1/2;
 		float: none;
 		width: 95%;
+		margin-left: 2.5%
+		margin-right: 2.5%
 	}
 	aside {
 		grid-row: 2/3;
@@ -226,6 +228,7 @@ footer p {
 		float: none;
 		padding-right: 2.5%;
 		width: 95%;
+		padding-left: 2.5% 
 	}
 	article img { max-width: 30%; }
 	#speakers {
