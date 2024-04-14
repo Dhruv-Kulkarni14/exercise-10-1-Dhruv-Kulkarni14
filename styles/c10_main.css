@@ -193,6 +193,13 @@ footer p {
 }
 
 @media only screen and (max-width: 648px) {
+	grid-template-rows: auto auto auto; /* Three rows that are sized automatically */
+    grid-template-columns: 1fr; /* One column */
+    gap: 0.5em;
+	#mobile_menu {
+    display: block;
+    grid-area: nav; /* Place the mobile menu in the grid area for the navigation menu */
+  }
 	header img { float: none; }
 	header { text-align: center; }
 	section {
