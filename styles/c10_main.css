@@ -199,6 +199,7 @@ footer p {
 		grid-template-columns: 1fr; /* One column */
 		gap: 0.5em;
 		text-align: center; 
+		justify-content: center;
 	}
 	header img {
 		float: none;
