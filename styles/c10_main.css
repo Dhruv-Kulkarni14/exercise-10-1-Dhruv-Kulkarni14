@@ -67,6 +67,10 @@ header img {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: repeat(5, 1fr);
+	align-items: center;
 }
 #nav_menu ul li a {
     display: block;
