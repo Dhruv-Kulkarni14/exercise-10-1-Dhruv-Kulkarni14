@@ -209,11 +209,20 @@ footer p {
 		display: block;
 		grid-area: nav; /* Place the mobile menu in the grid area for the navigation menu */
   	}
+	main {
+		display: grid;
+		grid-template-rows: auto auto;
+		grid-template-columns: 1fr;
+	}
 	section {
+		grid-row: 1/2;
+		grid-column: 1/2;
 		float: none;
 		width: 95%;
 	}
 	aside {
+		grid-row: 2/3;
+		grid-column: 1/2;
 		float: none;
 		padding-right: 2.5%;
 		width: 95%;
