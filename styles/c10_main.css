@@ -29,6 +29,12 @@ a:focus, a:hover {
 }
 main {
 	grid-area: main;
+	display: grid;
+	grid-template-rows: auto;
+        grid-template-columns: 30% auto;
+        gap: 2.5%;
+	grid-template-areas: 
+    "section aside";
 }
 /* the styles for the header */
 header {
@@ -87,6 +93,7 @@ header img {
 
 /* the styles for the section */
 section {
+	grid-area: section;
     padding: 0 2.5% 20px 2.5%;
 }
 section h1 {
@@ -137,6 +144,7 @@ article img {
 
 /* the styles for the aside */
 aside {
+	grid-area: aside;
     padding: 0 0 20px 2.5%;
 }
 aside h2 {
