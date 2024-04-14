@@ -204,9 +204,6 @@ footer p {
 		display: block;
 		grid-area: nav; /* Place the mobile menu in the grid area for the navigation menu */
   	}
-	header img {
-		float: center;
-	}
 	section {
 		float: none;
 		width: 95%;
